@@ -45,7 +45,7 @@ npm build
 
 Para construir este proyecto se han usado:
 
-* [Webpack](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
+* [Webpack](hhttps://webpack.js.org/) - es un empaquetador de módulos JavaScript 
 * [Ts](https://www.typescriptlang.org/) - Como lenguaje de programación para el desarrollo
 * [Js](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Qu%C3%A9_es_JavaScript) - Lenguaje básico del proyecto
 * [Jest](https://jestjs.io/) - Librería para testeo
