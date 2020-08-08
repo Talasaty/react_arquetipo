@@ -1,4 +1,4 @@
-# Título del Proyecto
+# Estrucuta base de proyecto React con Webpack y Ts
 
 Estructura base de proyecto React 
 
