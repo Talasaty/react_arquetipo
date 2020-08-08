@@ -8,7 +8,7 @@
         "start": "webpack-dev-server --mode development  --port 3000 --inline --content-base .",
         "build": "webpack --mode production",
         "test": "jest --watchAll",
-        "cypress:open": "cypress open",
+        "cypress": "cypress open",
         "cosmos": "cosmos",
         "cosmos:export": "cosmos-export"
     },
