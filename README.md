@@ -56,7 +56,7 @@ Para construir este proyecto se han usado:
 
 ## Versionado 📌
 
-Esta es la primera versión, se está trabajando en dockerizarlon todo para hacer la portabilidad más cómoda.
+Esta es la primera versión, se está trabajando en dockerizarlo todo para hacer la portabilidad más cómoda.
 
 ## Autor ✒️
 Juan Luis Mayorga Navarrete
