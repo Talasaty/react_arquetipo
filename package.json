@@ -24,6 +24,7 @@
         "@types/jest": "^26.0.8",
         "awesome-typescript-loader": "^5.2.1",
         "cypress": "^4.12.1",
+        "dotenv": "^8.2.0",
         "html-webpack-plugin": "^4.3.0",
         "jest-cli": "^26.2.2",
         "react-cosmos": "^5.4.0",
