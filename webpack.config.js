@@ -27,9 +27,20 @@ module.exports = () => {
         },
         module: {
             rules: [{
-                test: /\.tsx?$/,
-                loader: 'awesome-typescript-loader'
-            }]
+                    test: /\.tsx?$/,
+                    loader: 'awesome-typescript-loader'
+                },
+                {
+                    test: /\.css$/i,
+                    use: ['style-loader', 'css-loader'],
+                },
+                {
+                    test: /\.(png|jpe?g|gif)$/i,
+                    use: [{
+                        loader: 'file-loader',
+                    }, ],
+                },
+            ]
         },
         devtool: false,
         plugins: [

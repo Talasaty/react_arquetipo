@@ -16,9 +16,7 @@
       "baseUrl": "./",
       "skipLibCheck": true,
       "paths": {
-        "components/*": [
-          "src/*"
-        ],
+        "*":["*"]
       }
     }
   }
