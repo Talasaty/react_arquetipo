@@ -23,7 +23,8 @@ module.exports = () => {
         },
         output: {
             path: path.join(__dirname, '/dist'),
-            filename: 'main.js'
+            filename: 'main.js',
+            publicPath: '/'
         },
         module: {
             rules: [{
@@ -54,7 +55,8 @@ module.exports = () => {
             hints: process.env.NODE_ENV === 'production' ? "warning" : false
         },
         devServer: {
-            open: true
+            open: true,
+            historyApiFallback: true,
         }
 
     }
